@@ -10,3 +10,4 @@ null, $httpCode = 200) {
     ]);
     exit();
 }
+?>

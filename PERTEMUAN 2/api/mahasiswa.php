@@ -15,3 +15,4 @@ while ($row = mysqli_fetch_assoc($r)) {
 }
 
 sendResponse(true, "berhasil", $data, 200);
+?>
