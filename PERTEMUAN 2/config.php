@@ -3,10 +3,10 @@ require_once __DIR__ . "/helpers/response.php";
 
 mysqli_report(MYSQLI_REPORT_OFF);
 
-$host = "host-database";
-$user = "user-database";
-$pass = "password-database";
-$db = "nama-database-yang-dipakai";
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db = "Akademik";
 
 $koneksi = @mysqli_connect($host, $user, $pass, $db);
 
